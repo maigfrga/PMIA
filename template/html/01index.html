@@ -4,49 +4,85 @@
         <meta charset="UTF-8">
         <title>PMIA</title>
         <!-- Bootstrap core CSS -->
-            <link href="css/bootstrap.css" rel="stylesheet">
-            <link href="css/style.css" rel="stylesheet">
+            <link href="../css/bootstrap.css" rel="stylesheet">
+            <link href="../css/style.css" rel="stylesheet">
             <link href="https://fonts.googleapis.com/css?family=Dosis:200,300,400,500,600,700,800|Open+Sans:300,300i,400,400i,600,600i,700,700i,800,800i" rel="stylesheet">
-            <link rel="icon" type="image/png" href="img/favicon.png">
+            <link rel="icon" type="image/png" href="../img/favicon.png">
     </head>
-    <body>
-        <header class="">
+    <body class="">
+        <header class="container-fluid">
             <nav class="navbar fixed-top navbar-light bg-faded navbar-toggleable-sm header">
-                <div class="container-fluid">
+                <div class="container-fluid hidden-sm-down">
                     <div class="row">
-                        <div class="col-3">
+                        <div class="col-md-3 col-lg-3">
                             <a class="navbar-brand" href="#">
-                                <img src="img/logo.png" alt="pmia logo" class="img-fluid">
+                                <img src="../img/logo.png" alt="pmia logo" class="img-fluid">
                             </a>
                         </div>
-                        <div class="col-9">
-                            <div class="row justify-content-end social-media">
-                                <div class="col-2 col-lg-1">
-                                    <a href="" target="_blank"> <img src="img/fb01.png" alt="facebook" class="img-fluid"/> </a>
+                        <div class="col-md-6 col-lg-9">
+                            <div class="row justify-content-md-end social-media">
+                                <div class="col-md-2 col-lg-1">
+                                    <a href="" target="_blank"> <img src="../img/fb01.png" alt="facebook" class="img-fluid"/> </a>
                                 </div>
-                                <div class="col-2 col-lg-1">
-                                    <a href="" target="_blank"> <img src="img/twitter01.png" alt="twitter" class="img-fluid"/> </a>
+                                <div class="col-md-2 col-lg-1">
+                                    <a href="" target="_blank"> <img src="../img/twitter01.png" alt="twitter" class="img-fluid"/> </a>
                                 </div>
-                                <div class="col-2 col-lg-1">
-                                    <a href="" target="_blank"> <img src="img/instagram01.png" alt="instagram" class="img-fluid"/> </a>
+                                <div class="col-md-2 col-lg-1">
+                                    <a href="" target="_blank"> <img src="../img/instagram01.png" alt="instagram" class="img-fluid"/> </a>
                                 </div>
-                                <div class="col-2 col-lg-1">
-                                    <a href="" target="_blank"> <img src="img/linkedin01.png" alt="linkedin" class="img-fluid"/> </a>
+                                <div class="col-md-2 col-lg-1">
+                                    <a href="" target="_blank"> <img src="../img/linkedin01.png" alt="linkedin" class="img-fluid"/> </a>
                                 </div>
-                                <button type="button" class="btn btn-primary btn-lg btn-donation">MAKE A DONATION</button>
+                                <div class="col-md-2 col-lg-4">
+                                    <button type="button" class="btn btn-primary btn-lg btn-donation">
+                                        MAKE A DONATION
+                                    </button>
+                                </div>
+                                
+                            </div>
+                            <div class="justify-content-md-around collapse navbar-collapse menu" id="navbarSupportedContent">
+                                <ul class="navbar-nav">
+                                    <li class="nav-item active">
+                                        <a class="nav-link" href="#">ABOUT <span class="sr-only">(current)</span></a>
+                                    </li>
+                                    <li class="nav-item">
+                                        <a class="nav-link" href="#">SERVICES</a>
+                                    </li>
+                                    <li class="nav-item">
+                                        <a class="nav-link" href="#">EDUCATION</a>
+                                    </li>
+                                    <li class="nav-item">
+                                        <a class="nav-link" href="#">NEWS</a>
+                                    </li>
+                                    <li class="nav-item">
+                                        <a class="nav-link" href="#">FAQs</a>
+                                    </li>
+                                    <li class="nav-item">
+                                        <a class="nav-link" href="#">CONTACT</a>
+                                    </li>
+                                </ul>
                             </div>
                             
                           
                         </div>
                     </div>
                 </div>
-
             </nav>
-            
         </header>
-        <main >
-           
-        </main>
+        <section class="container-fluid">
+            <div class="row">
+                <ul class="list-unstyled cb-slideshow">
+                <li><span>Image 01</span></li>
+                <li><span>Image 02</span></li>
+                <li><span>Image 03</span></li>
+            </ul>
+            <div class="col-lg-8 push-lg-3 people" >
+                <h1 class="text-center"> PRODUCTS THAT BUILD COMMUNITIES</h1>
+            </div>
+            </div>
+            
+        </section>
+        
         <footer>
            
         </footer>
@@ -56,6 +92,6 @@
         <script src="https://code.jquery.com/jquery-3.1.1.slim.min.js" integrity="sha384-A7FZj7v+d/sdmMqp/nOQwliLvUsJfDHW+k9Omg/a/EheAdgtzNs3hpfag6Ed950n" crossorigin="anonymous"></script>
         <script src="https://cdnjs.cloudflare.com/ajax/libs/tether/1.4.0/js/tether.min.js" integrity="sha384-DztdAPBWPRXSA/3eYEEUWrWCy7G5KFbe8fFjk5JAIxUYHKkDx6Qin1DkWx51bBrb" crossorigin="anonymous"></script>
         <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-alpha.6/js/bootstrap.min.js" integrity="sha384-vBWWzlZJ8ea9aCX4pEW3rVHjgjt7zpkNpZk+02D9phzyeVkE+jo0ieGizqPLForn" crossorigin="anonymous"></script>
-        <script src="js/bootstrap.min.js"></script>
+        <script src="../js/bootstrap.min.js"></script>
     </body>
 </html>
