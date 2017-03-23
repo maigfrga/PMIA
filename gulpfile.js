@@ -19,7 +19,18 @@ gulp.task('sass:watch', function () {
 
 
 gulp.task('buildboostrapjs', function () {
-  var jsFiles = 'node_modules/bootstrap/js/src/**/*.js'
+  var jsFiles = [
+    'node_modules/tether/dist/js/tether.min.js',
+  ];
+  return gulp.src(jsFiles)
+  .pipe(concat('tether.min.js'))
+  .pipe(gulp.dest(jsDest));
+
+
+  var jsFiles = [
+    'node_modules/tether/dist/js/tether.min.js',
+    'node_modules/bootstrap/dist/js/bootstrap.min.js',
+  ];
   return gulp.src(jsFiles)
   .pipe(concat('boostrap.min.js'))
   .pipe(gulp.dest(jsDest));

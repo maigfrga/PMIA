@@ -8,6 +8,7 @@
   "version": "0.0.1",
   "description": "Proudly Made in Africa html templates",
   "dependencies": {
+    "tether": "",
     "bootstrap": "4.0.0-alpha.6",
     "gulp": "",
     "gulp-sass": "",
